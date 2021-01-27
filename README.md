@@ -14,13 +14,6 @@ Once you have DIALS in your path, you can install `reciprocalspaceship` with the
 cctbx.python -m pip install reciprocalspaceship
 ```
 This will make sure that the Python interpreter shipped with DIALS is aware of `reciprocalspaceship`.
-Once you've done that, you will have to reconstitute the reflection table by running
-
-```bash
-./setup.sh
-```
-This is a hacky workaround to avoid going over the `GitHub` file size limit. It will concatenate the files in `data/reflections` into their original binary.
-
 
 ### Usage
 For this example, we will convert a pair of reflection and experiment files from [CXIDB: 81](https://cxidb.org/id-81.html) to `mtz`. 
